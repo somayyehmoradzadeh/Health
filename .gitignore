@@ -1,0 +1,119 @@
+# =========================
+# Global / OS
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Editors / IDEs
+# =========================
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# =========================
+# Python / Django
+# =========================
+pycache/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+
+# Django artifacts
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Media & static (choose behavior)
+# If you DO NOT want uploaded files in git:
+media/
+# If you collectstatic locally, keep it out of git:
+staticfiles/
+
+# Django collectstatic cache (sometimes)
+static/CACHE/
+
+# ----------------------------
+# Migrations (ignore all, keep __init__.py)
+# ----------------------------
+**/migrations/**
+!**/migrations/__init__.py
+
+
+# =========================
+# Environment files / secrets
+# =========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# =========================
+# Node / Next.js
+# =========================
+# Dependencies
+node_modules/
+
+# Next build outputs
+.next/
+out/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local env files
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Turbopack cache
+.turbo/
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.temp
+*.bak
+
+# =========================
+# Optional: lock files (choose one style)
+# =========================
+# If you use npm, keep package-lock.json tracked (recommended), so do NOT ignore it.
+# If you use yarn/pnpm, uncomment the ones you don't use:
+# yarn.lock
+# pnpm-lock.yaml
