@@ -78,16 +78,19 @@ static/CACHE/
 *.key
 *.crt
 
-# =========================
+
+
+# ======================
 # Node / Next.js
-# =========================
-# Dependencies
-node_modules/
+# ======================
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
 
 # Next build outputs
 .next/
 out/
-dist/
 
 # Logs
 npm-debug.log*
