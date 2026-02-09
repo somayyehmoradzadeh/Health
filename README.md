@@ -56,10 +56,10 @@ This platform allows patients and staff to manage medical cases, documents, and 
 > Screenshots are located in the `screenshots/` folder.
 
 ### Home Page (Guest)
-![Home Guest](screenshots/home-guest.png)
+![Home Guest](screenshots/home.png)
 
 ### Home Page (Logged In)
-![Home Logged In](screenshots/home-auth.png)
+![Home Logged In](screenshots/home-after-login.png)
 
 ### Dashboard Overview
 ![Dashboard](screenshots/dashboard.png)
@@ -170,3 +170,4 @@ medical-travel-platform/
 │   └─ services/
 │
 └─ screenshots/
+
